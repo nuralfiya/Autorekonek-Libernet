@@ -63,7 +63,7 @@ clear
 /usr/bin/libernet
 if [ "$tools" = "4" ]; then
 cd /root/mod
-wget -O update.sh "https://github.com/nuralfiya/Autorekonek-Libernet/blob/main/update.sh"
+wget -O update.sh "https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/update.sh"
 bash update.sh
 sleep 3
 cd
