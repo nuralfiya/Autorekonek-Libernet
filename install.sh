@@ -32,5 +32,8 @@ wget -O libernet "https://github.com/nuralfiya/Autorekonek-Libernet/blob/main/li
 wget -O autorekonek-libernet "https://github.com/nuralfiya/Autorekonek-Libernet/blob/main/autorekonek-libernet.sh"
 chmod +x /usr/bin/libernet
 chmod +x /usr/bin/autorekonek-libernet
+cd
 echo -e "$DB *$G LIBERNET-TOOLS HAS BEN INSTALLED  $DB*"
+echo -e "$DB *$G Silahkan tulis $R libernet $G pada terminal untuk meliat menu scrip  $DB*"
 echo -e "$DB *$G Created By $R ($G Alfiya $R ) $DB*"
+libernet
