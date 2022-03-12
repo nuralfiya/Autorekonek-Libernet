@@ -61,7 +61,7 @@ cat /tmp/http-injector.log
 sleep 3
 clear
 /usr/bin/libernet
-if [ "$tools" = "4" ]; then
+elif [ "$tools" = "4" ]; then
 cd /root/mod
 wget -O update.sh "https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/update.sh"
 bash update.sh
