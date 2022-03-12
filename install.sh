@@ -23,6 +23,7 @@ rm /usr/bin/libernet
 rm /usr/bin/autorekonek-libernet
 clear
 echo -e "$DB *$G INSATALLING SCRIP TOOLS_LIBERNET $DB*"
+sleep 2
 mkdir /root/mod
 cd /usr/bin
 wget -O libernet "https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/libernet.sh"
@@ -33,4 +34,6 @@ cd
 echo -e "$DB *$G LIBERNET-TOOLS HAS BEN INSTALLED  $DB*"
 echo -e "$DB *$G Silahkan tulis $R libernet $G pada terminal untuk meliat menu scrip  $DB*"
 echo -e "$DB *$G Created By $R ($G Alfiya $R ) $DB*"
+sleep3
+clear
 libernet
