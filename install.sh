@@ -23,13 +23,10 @@ rm /usr/bin/libernet
 rm /usr/bin/autorekonek-libernet
 clear
 echo -e "$DB *$G INSATALLING SCRIP TOOLS_LIBERNET $DB*"
-wget -O install.sh "https://github.com/nuralfiya/Autorekonek-Libernet/blob/main/libernet.sh"
-bash install.sh
-sleep 2
 mkdir /root/mod
 cd /usr/bin
-wget -O libernet "https://github.com/nuralfiya/Autorekonek-Libernet/blob/main/libernet.sh"
-wget -O autorekonek-libernet "https://github.com/nuralfiya/Autorekonek-Libernet/blob/main/autorekonek-libernet.sh"
+wget -O libernet "https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/libernet.sh"
+wget -O autorekonek-libernet "https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/autorekonek-libernet.sh"
 chmod +x /usr/bin/libernet
 chmod +x /usr/bin/autorekonek-libernet
 cd
