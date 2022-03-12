@@ -19,3 +19,5 @@ BLB='\e[3;36m' #LIGHTBLUE
 clear
 
 echo -e "$G Lagi gak ada Update gaesss"
+echo -e "$R Jangan Lupa solat Limaa waktuu yha ges yhaa
+rm /root/mod/update.sh
