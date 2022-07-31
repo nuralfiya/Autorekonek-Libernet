@@ -1,0 +1,83 @@
+{
+  "dns": {
+    "servers": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ]
+  },
+ "inbounds": [
+   {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": false
+      },
+      "tag": "socks"
+    },
+    {
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "none"
+  },
+		"outbounds": [
+				{
+						"mux": {
+								"enabled": false
+						},
+						"protocol": "vmess",
+						"settings": {
+								"vnext": [
+										{
+												"address": "ruting.lk21official.com",
+												"port": 61283,
+												"users": [
+														{
+																"alterId": 0,
+																"id": "eef46d87-ae46-d801-e0d4-6c87ae46d801",
+																"level": 8,
+																"security": "none"
+														}
+												]
+										}
+								]
+						},
+						"streamSettings": {
+								"network": "ws",
+								"security": "none",
+								"wsSettings": {
+										"headers": {
+												"Host": "ruting.lk21official.com"
+										},
+										"path": "/vmessws"
+								}
+						},
+						"tag": "VMESS"
+				}
+		],
+		"policy": {
+				"levels": {
+						"8": {
+								"connIdle": 300,
+								"downlinkOnly": 1,
+								"handshake": 4,
+								"uplinkOnly": 1
+						}
+				}
+		}
+}
