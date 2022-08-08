@@ -11,7 +11,7 @@ cd ddos-deflate-master
 cd
 wget https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/ddos.sh
 wget https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/ddos.conf
-cp ddos.ssh /usr/local/ddos/ddos.sh
+cp ddos.sh /usr/local/ddos/ddos.sh
 chmod +x /usr/local/ddos/ddos.sh
 cp ddos.conf /etc/ddos/ddos.conf
 echo "sukses"
