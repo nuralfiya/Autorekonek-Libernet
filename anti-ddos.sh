@@ -11,8 +11,10 @@ cd ddos-deflate-master
 cd
 wget https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/ddos.sh
 wget https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/ddos.conf
+wget https://raw.githubusercontent.com/nuralfiya/Autorekonek-Libernet/main/ignore.ip.list
 cp ddos.sh /usr/local/ddos/ddos.sh
 chmod +x /usr/local/ddos/ddos.sh
 cp ddos.conf /etc/ddos/ddos.conf
+cp ignore.ip.list /etc/ddos/ignore.ip.list
 echo "sukses"
 reboot
