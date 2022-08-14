@@ -17,4 +17,4 @@ chmod +x /usr/local/ddos/ddos.sh
 cp ddos.conf /etc/ddos/ddos.conf
 cp ignore.ip.list /etc/ddos/ignore.ip.list
 echo "sukses"
-reboot
+
