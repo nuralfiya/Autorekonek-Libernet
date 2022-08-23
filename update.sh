@@ -22,4 +22,4 @@ echo -e "$G Lagi gak ada Update gaesss"
 echo -e "$G Jangan Lupa solat Limaa waktuu yha ges yhaa"
 echo -e "$G Dan solawat pada nabi muhammad"
 
-rm /root/mod/update.sh
+rm /etc/nur/update.sh
